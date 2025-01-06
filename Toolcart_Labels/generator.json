@@ -1,0 +1,79 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "INVENTORIED": {
+            "$fn": "50",
+            "EPSILON": "0.2",
+            "Font_Size": "7",
+            "Hole_Diameter": "5",
+            "Plate_Text": "INVENTORIED",
+            "Plate_Thickness": "2",
+            "Text_Height": "2"
+        },
+        "EXPLOSIVE 1.1D": {
+            "$fn": "50",
+            "EPSILON": "0.2",
+            "Font_Size": "7",
+            "Hole_Diameter": "3.3000000000000003",
+            "Hole_Padding": "1.2000000000000002",
+            "Plate_Text": "EXPLOSIVE 1.1D",
+            "Plate_Thickness": "2",
+            "Text_Height": "2"
+        },
+        "CID": {
+            "$fn": "50",
+            "EPSILON": "0.2",
+            "Font_Size": "7",
+            "Hole_Diameter": "5",
+            "Padding": "20",
+            "Plate_Text": "CID",
+            "Plate_Thickness": "2",
+            "Text_Height": "2"
+        },
+        "UN1.1D": {
+            "$fn": "50",
+            "EPSILON": "0.2",
+            "Font_Size": "5.1000000000000005",
+            "Hole_Diameter": "3",
+            "Plate_Text": "UN1.1D",
+            "Plate_Thickness": "2",
+            "Text_Height": "2"
+        },
+        "New set 1": {
+            "$fn": "50",
+            "Border": "2.7000000000000002",
+            "EPSILON": "0.10000000000000001",
+            "Font_Size": "10",
+            "Hole_Diameter": "0",
+            "Plate_Text": "UN1.2C",
+            "Plate_Thickness": "2",
+            "Text_Height": "2"
+        },
+        "New set 2": {
+            "$fn": "50",
+            "Border": "4",
+            "EPSILON": "0.10000000000000001",
+            "Font": "Liberation Mono:style=Bold",
+            "Font_Size": "16",
+            "Hole_Diameter": "0",
+            "Hole_Padding": "2",
+            "Padding": "0",
+            "Plate_Text": "Cordless Power Tools",
+            "Plate_Thickness": "2",
+            "Text_Height": "2"
+        },
+        "Cordless Power Tools": {
+            "$fn": "50",
+            "Border": "5",
+            "EPSILON": "0.10000000000000001",
+            "Font": "Atkinson Hyperlegible:style=Bold",
+            "Font_Size": "16",
+            "Hole_Diameter": "0",
+            "Hole_Padding": "0",
+            "Padding": "0",
+            "Plate_Text": "SANDAPAPER",
+            "Plate_Thickness": "2",
+            "Text_Height": "2"
+        }
+    }
+}
