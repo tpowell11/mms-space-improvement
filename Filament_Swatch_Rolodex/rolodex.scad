@@ -17,7 +17,7 @@ Swatch_Height = 60.01;
 Swatch_Preview = true;
 
 // Space between axle and tightly fitting parts.
-Axle_Tolerance = 0.05;
+Axle_Tolerance = 0.025;
 
 // Add guide peg holes to axle.
 Axle_Guide_Peg_Holes = true;
@@ -26,7 +26,7 @@ Axle_Guide_Peg_Holes = true;
 Stand_Thickness = 4;
 
 // Space between stand parts.
-Stand_Tolerance = 0.05;
+Stand_Tolerance = 0.025;
 
 // Text to display on the stand.
 Stand_Text = "MMS";
