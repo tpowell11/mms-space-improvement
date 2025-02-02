@@ -17,7 +17,7 @@ Swatch_Height = 60.01;
 Swatch_Preview = true;
 
 // Space between axle and tightly fitting parts.
-Axle_Tolerance = 0.125;
+Axle_Tolerance = 0.05;
 
 // Add guide peg holes to axle.
 Axle_Guide_Peg_Holes = true;
@@ -26,13 +26,13 @@ Axle_Guide_Peg_Holes = true;
 Stand_Thickness = 4;
 
 // Space between stand parts.
-Stand_Tolerance = 0.125;
+Stand_Tolerance = 0.05;
 
 // Text to display on the stand.
-Stand_Text = "PLA";
+Stand_Text = "MMS";
 
 // Font to display stand text in.
-Stand_Text_Font = "Liberation Sans:style=Bold";
+Stand_Text_Font = "Segoe UI:style=Bold";
 
 // Diameter of wheel that holds swatches. Use a smaller diameter for few swatches and increase as needed.
 Wheel_Diameter = 56; //[30.0:0.01:60.0]
