@@ -447,7 +447,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "locals"
+    ]
   },
   "meta": {
     "filename": "MMS_SSTC.kicad_pro",
