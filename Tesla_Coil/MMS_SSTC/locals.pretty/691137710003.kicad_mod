@@ -181,4 +181,15 @@
 		(uuid "eff86792-7e45-4256-8d34-75264745fb55")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/local-models/691137710003.step"
+		(offset
+			(xyz -7.5 -4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
 )
