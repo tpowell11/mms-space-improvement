@@ -11068,7 +11068,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296X_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 143.51 91.44 0)
 			(effects
 				(font
@@ -11095,7 +11095,7 @@
 				(hide yes)
 			)
 		)
-		(property "DKPN" "3296X-103LF-ND"
+		(property "DKPN" "118-3296W-1-103RLFCT-ND"
 			(at 143.51 91.44 0)
 			(effects
 				(font

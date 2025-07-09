@@ -507,7 +507,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -616,8 +616,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "DKPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {
