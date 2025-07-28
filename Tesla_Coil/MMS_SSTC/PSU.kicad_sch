@@ -1395,6 +1395,349 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_DPST_x2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPST_x2"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPST_x2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPST_Temperature"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW1"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST_Temperature"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DKPN" "317-1000-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "temperature switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_Temperature_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 1.524) (xy -0.762 1.524) (xy -0.762 2.032) (xy 0.762 2.032) (xy 0.762 2.54)
+						(xy 0 2.54) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_Temperature_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transformer:TRANSF1"
 			(pin_numbers
 				(hide yes)
@@ -2408,9 +2751,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "power switch and fuse still needed"
+	(text "fuse still needed\ni want to actually do the math on this in case EHS comes knocking"
 		(exclude_from_sim no)
-		(at 82.042 56.388 0)
+		(at 111.252 54.102 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2428,25 +2771,15 @@
 		)
 		(uuid "35fbac7e-d5f6-463f-8ce5-be5f63714867")
 	)
-	(text "in final schematic printout if this is ever published\nwe need to have a couple warnings about stuff like grounding\nbecause this design ideally is NOT isolated"
+	(text "add an inrush current limiter?\n317-1148-ND looks good"
 		(exclude_from_sim no)
-		(at 109.982 146.05 0)
+		(at 52.832 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "5324e7e0-4cb1-49e8-9bef-48dfebca3860")
-	)
-	(text "might be good to add attachement points for aux\nDC if doing testing at lower voltages where\nthe transformer may not supply necessary power"
-		(exclude_from_sim no)
-		(at 181.61 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6b6a098c-1fe6-426e-9912-4dadc0ec983e")
+		(uuid "37d1430e-2b53-44e6-9b86-37402dd7f7a2")
 	)
 	(text "NOT earth ground!!!!"
 		(exclude_from_sim no)
@@ -2460,7 +2793,7 @@
 	)
 	(text "Both caps rated to 200v\nnote this in whatever nice final printout\n"
 		(exclude_from_sim no)
-		(at 240.538 107.188 0)
+		(at 237.236 106.426 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2578,7 +2911,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 71.12) (xy 88.9 71.12)
+			(xy 63.5 71.12) (xy 67.31 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2788,7 +3121,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 67.31) (xy 88.9 71.12)
+			(xy 67.31 67.31) (xy 67.31 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2848,6 +3181,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 69.85) (xy 113.03 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fdba60-a501-4d40-a246-b5ccc684e565")
+	)
+	(wire
+		(pts
 			(xy 209.55 100.33) (xy 209.55 105.41)
 		)
 		(stroke
@@ -2878,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 68.58) (xy 93.98 73.66)
+			(xy 72.39 68.58) (xy 72.39 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2898,7 +3241,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 76.2) (xy 87.63 76.2)
+			(xy 63.5 76.2) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2945,6 +3288,16 @@
 			(type default)
 		)
 		(uuid "ae05cba0-a874-43d0-92ee-f412a8df69e7")
+	)
+	(wire
+		(pts
+			(xy 123.19 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f26fa3-5e52-4ef8-94cb-901131bfd88a")
 	)
 	(wire
 		(pts
@@ -3008,7 +3361,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 78.74) (xy 87.63 76.2)
+			(xy 66.04 78.74) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3048,7 +3401,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 73.66) (xy 93.98 73.66)
+			(xy 63.5 73.66) (xy 72.39 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3085,6 +3438,16 @@
 			(type default)
 		)
 		(uuid "e29a9922-2fb2-448b-a960-9620514b9c43")
+	)
+	(wire
+		(pts
+			(xy 97.79 69.85) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58381d4-2cdc-4ddf-8371-7e6f0f7067df")
 	)
 	(wire
 		(pts
@@ -3206,7 +3569,7 @@
 	)
 	(symbol
 		(lib_id "power:NEUT")
-		(at 93.98 68.58 0)
+		(at 72.39 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3214,7 +3577,7 @@
 		(dnp no)
 		(uuid "0b1f2f9e-d528-4641-a79d-5acb1e744097")
 		(property "Reference" "#PWR06"
-			(at 93.98 72.39 0)
+			(at 72.39 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3586,7 @@
 			)
 		)
 		(property "Value" "NEUT"
-			(at 91.694 64.262 0)
+			(at 70.104 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 68.58 0)
+			(at 72.39 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +3604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 68.58 0)
+			(at 72.39 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +3613,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"NEUT\""
-			(at 93.98 68.58 0)
+			(at 72.39 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3872,7 @@
 	)
 	(symbol
 		(lib_id "power:HT")
-		(at 132.08 72.39 270)
+		(at 137.16 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3517,7 +3880,7 @@
 		(dnp no)
 		(uuid "368c0ce8-4d24-4f58-beb5-6ae247f42cfe")
 		(property "Reference" "#PWR033"
-			(at 128.27 72.39 0)
+			(at 133.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +3889,7 @@
 			)
 		)
 		(property "Value" "24VAC"
-			(at 137.922 72.39 90)
+			(at 143.002 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 72.39 0)
+			(at 137.16 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +3906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 72.39 0)
+			(at 137.16 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"HT\""
-			(at 132.08 72.39 0)
+			(at 137.16 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,34 +3936,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 80.01 73.66 0)
-		(mirror y)
+		(lib_id "Switch:SW_SPST_Temperature")
+		(at 118.11 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3f928a1c-afd0-4899-ab1f-f7fafa3ce6d4")
-		(property "Reference" "J1"
-			(at 76.454 71.12 0)
+		(fields_autoplaced yes)
+		(uuid "3a68eeae-275d-4bee-a68f-8703d810d682")
+		(property "Reference" "SW1"
+			(at 118.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 80.01 67.31 0)
+		(property "Value" "70C"
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "locals:691137710003"
-			(at 80.01 73.66 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+			(at 118.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3609,7 +3971,85 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 73.66 0)
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "317-1000-ND"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "052f151f-d6f7-46f3-ac02-edda3b19fd98")
+		)
+		(pin "1"
+			(uuid "bdc5c300-926a-411f-8e0e-fac9e4c8a5c0")
+		)
+		(instances
+			(project ""
+				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 58.42 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f928a1c-afd0-4899-ab1f-f7fafa3ce6d4")
+		(property "Reference" "J1"
+			(at 54.864 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 58.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "locals:691137710003"
+			(at 58.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +4058,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 80.01 73.66 0)
+			(at 58.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +4067,7 @@
 			)
 		)
 		(property "DKPN" "732-10956-ND"
-			(at 80.01 73.66 0)
+			(at 58.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +4392,7 @@
 	)
 	(symbol
 		(lib_id "power:NEUT")
-		(at 121.92 82.55 90)
+		(at 127 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3961,7 +4401,7 @@
 		(fields_autoplaced yes)
 		(uuid "89af69c2-63af-46ea-8ee1-7109652409b6")
 		(property "Reference" "#PWR032"
-			(at 125.73 82.55 0)
+			(at 130.81 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +4410,7 @@
 			)
 		)
 		(property "Value" "NEUT"
-			(at 118.11 82.5499 90)
+			(at 123.19 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +4419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 82.55 0)
+			(at 127 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +4428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 82.55 0)
+			(at 127 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +4437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"NEUT\""
-			(at 121.92 82.55 0)
+			(at 127 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4748,7 @@
 	)
 	(symbol
 		(lib_id "power:HT")
-		(at 88.9 67.31 0)
+		(at 67.31 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4316,7 +4756,7 @@
 		(dnp no)
 		(uuid "b0366bf7-ad59-4f17-9a05-51d52786b26c")
 		(property "Reference" "#PWR05"
-			(at 88.9 71.12 0)
+			(at 67.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4765,7 @@
 			)
 		)
 		(property "Value" "HT"
-			(at 88.646 64.262 0)
+			(at 67.056 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 67.31 0)
+			(at 67.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +4782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 67.31 0)
+			(at 67.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"HT\""
-			(at 88.9 67.31 0)
+			(at 67.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +5022,7 @@
 	)
 	(symbol
 		(lib_id "power:HT")
-		(at 121.92 72.39 90)
+		(at 97.79 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4591,7 +5031,7 @@
 		(fields_autoplaced yes)
 		(uuid "c088a81e-3e38-4704-99cd-9ce30faa63d7")
 		(property "Reference" "#PWR028"
-			(at 125.73 72.39 0)
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +5040,7 @@
 			)
 		)
 		(property "Value" "HT"
-			(at 119.38 72.3899 90)
+			(at 95.25 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,7 +5049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 72.39 0)
+			(at 97.79 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +5058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 72.39 0)
+			(at 97.79 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +5067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"HT\""
-			(at 121.92 72.39 0)
+			(at 97.79 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +5089,7 @@
 	)
 	(symbol
 		(lib_id "Transformer:TRANSF1")
-		(at 127 77.47 0)
+		(at 132.08 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4658,7 +5098,7 @@
 		(fields_autoplaced yes)
 		(uuid "c294a051-43de-4eb5-9b95-dae2c9e45748")
 		(property "Reference" "TR2"
-			(at 127 67.31 0)
+			(at 132.08 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +5106,7 @@
 			)
 		)
 		(property "Value" "TRANSF1"
-			(at 127 69.85 0)
+			(at 132.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +5114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 77.47 0)
+			(at 132.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +5123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 77.47 0)
+			(at 132.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +5132,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 77.47 0)
+			(at 132.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +5141,7 @@
 			)
 		)
 		(property "DKPN" "3388-BV301S24028-ND"
-			(at 127 77.47 0)
+			(at 132.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +5317,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 87.63 78.74 0)
+		(at 66.04 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4885,7 +5325,7 @@
 		(dnp no)
 		(uuid "c62b7060-7398-4373-a261-992a126e1aba")
 		(property "Reference" "#PWR08"
-			(at 87.63 85.09 0)
+			(at 66.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +5334,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 85.09 83.058 0)
+			(at 63.5 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +5343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 78.74 0)
+			(at 66.04 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +5352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 78.74 0)
+			(at 66.04 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,7 +5361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 87.63 78.74 0)
+			(at 66.04 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +5543,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 82.55 0)
+		(at 137.16 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5112,7 +5552,7 @@
 		(fields_autoplaced yes)
 		(uuid "d93f1401-1174-40d3-8fea-fc701c7e83bc")
 		(property "Reference" "#PWR011"
-			(at 132.08 88.9 0)
+			(at 137.16 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5561,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 87.63 0)
+			(at 137.16 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +5569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 82.55 0)
+			(at 137.16 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +5578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 82.55 0)
+			(at 137.16 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +5587,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 82.55 0)
+			(at 137.16 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,6 +5680,89 @@
 			(project "MMS_SSTC"
 				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 106.68 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec27cb39-2082-4cb7-8ace-3bc18feac129")
+		(property "Reference" "SW2"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "EG5655-ND"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3a058058-c478-4391-b05a-d627671dea86")
+		)
+		(pin "1"
+			(uuid "0a705a4b-1155-47ff-8e73-dd4426dd2c52")
+		)
+		(pin "2"
+			(uuid "971f9bc1-11b0-44b7-a102-c1d5826e5a9a")
+		)
+		(pin "3"
+			(uuid "a8e37220-b6a7-4328-a213-70e6ae0e4130")
+		)
+		(instances
+			(project ""
+				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
