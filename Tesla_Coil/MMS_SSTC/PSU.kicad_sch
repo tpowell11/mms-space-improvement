@@ -2750,16 +2750,6 @@
 		)
 		(uuid "f3f45078-fbb1-4898-a912-3f22f848781f")
 	)
-	(text "adding an ICL is pointless unless we design the circuit\nsuch that the logic turns off immediately so the FET doesn't\ndrain the caps. You could just cycle it on and off and render\nthe ICL useless because it would still be hot but the caps are drained\nso just use a slightly better rectifier"
-		(exclude_from_sim no)
-		(at 217.424 31.242 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f966c9c6-2bbd-4f35-933a-88564ff6312f")
-	)
 	(junction
 		(at 69.85 137.16)
 		(diameter 0)
