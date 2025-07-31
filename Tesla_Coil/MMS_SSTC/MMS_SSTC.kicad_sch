@@ -840,6 +840,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Zener_Small_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Small_Filled"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, small symbol, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_Small_Filled_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_Small_Filled_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Potentiometer_Trim_US"
 			(pin_names
 				(offset 1.016)
@@ -3558,6 +3708,16 @@
 		)
 		(uuid "643ee8c1-4c49-45f5-aeb8-02252e60d408")
 	)
+	(text "just 2 resistors also works\nbut better to let them put\nthe zener backwards than fuck\nup which resistor goes where\nand possibly ruin the chip"
+		(exclude_from_sim no)
+		(at 246.888 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6957fcdc-96d9-4090-aaac-3cb42330d405")
+	)
 	(text "Note: Best if C9 is stable wrt.\nvoltage and temperature. Tolerance\nnot terribly important"
 		(exclude_from_sim no)
 		(at 119.634 52.07 0)
@@ -3629,6 +3789,12 @@
 		(uuid "66ea37cd-a9bb-4dcb-a67b-9c50278a8a17")
 	)
 	(junction
+		(at 165.1 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "754fd3b5-4402-458a-ba13-a7d8344f73af")
+	)
+	(junction
 		(at 74.93 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3645,12 +3811,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a9370bc-5378-43f9-84ca-8a2a4e3916ce")
-	)
-	(junction
-		(at 165.1 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a9a67f1-0a19-48a0-9550-59798bcc46a4")
 	)
 	(junction
 		(at 172.72 124.46)
@@ -3857,16 +4017,6 @@
 			(type default)
 		)
 		(uuid "27d6201d-cf4f-435c-86c6-78fe3fcd7bfd")
-	)
-	(wire
-		(pts
-			(xy 165.1 109.22) (xy 168.91 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28cde872-b6fe-4aca-8e3b-1a5c39270ef7")
 	)
 	(wire
 		(pts
@@ -4130,16 +4280,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 111.76) (xy 168.91 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78adf23a-d636-417a-bb0a-c16cc52e353c")
-	)
-	(wire
-		(pts
 			(xy 165.1 135.89) (xy 165.1 140.97)
 		)
 		(stroke
@@ -4200,6 +4340,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 124.46) (xy 165.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9db9c4-d7dc-406a-95b8-0b60e09e3b0d")
+	)
+	(wire
+		(pts
 			(xy 172.72 140.97) (xy 182.88 140.97)
 		)
 		(stroke
@@ -4240,6 +4390,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 111.76) (xy 168.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954c9fd6-aa9f-4c26-b888-b95c2c9b3328")
+	)
+	(wire
+		(pts
 			(xy 27.94 60.96) (xy 34.29 60.96)
 		)
 		(stroke
@@ -4267,16 +4427,6 @@
 			(type default)
 		)
 		(uuid "97266aa0-7359-4b33-bd88-12cd4b9d88e5")
-	)
-	(wire
-		(pts
-			(xy 165.1 114.3) (xy 165.1 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "985f0299-79f9-4010-aea6-71f857073647")
 	)
 	(wire
 		(pts
@@ -4340,6 +4490,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 114.3) (xy 161.29 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59d622f-2bf1-440c-9517-9e802b29dfc9")
+	)
+	(wire
+		(pts
 			(xy 121.92 57.15) (xy 121.92 58.42)
 		)
 		(stroke
@@ -4367,6 +4527,16 @@
 			(type default)
 		)
 		(uuid "d1d7af99-2bc8-4d29-a286-ada1d98bc01d")
+	)
+	(wire
+		(pts
+			(xy 165.1 109.22) (xy 161.29 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a050e2-0300-44bd-afd3-4212aa0184bb")
 	)
 	(wire
 		(pts
@@ -4487,6 +4657,26 @@
 			(justify left bottom)
 		)
 		(uuid "21723f50-7e23-49fb-8457-4c06e2a4c4a3")
+	)
+	(label "DRAIN"
+		(at 172.72 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3bd65b4-4137-4aa2-b31d-9dfbf16c433d")
+	)
+	(label "GATE"
+		(at 152.4 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f75188b4-0426-4024-9825-423ba3828235")
 	)
 	(global_label "INTERRUPT_OUT"
 		(shape input)
@@ -5312,7 +5502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "1k"
 			(at 222.25 54.6099 0)
 			(effects
 				(font
@@ -5348,7 +5538,7 @@
 				(hide yes)
 			)
 		)
-		(property "DKPN" "56-MBA02040C2203FRP00CT-ND"
+		(property "DKPN" "BC1.00KXCT-ND"
 			(at 219.71 53.34 0)
 			(effects
 				(font
@@ -5373,34 +5563,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 160.02 111.76 0)
-		(mirror y)
+		(lib_id "Device:D_Zener_Small_Filled")
+		(at 219.71 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "61785326-c6da-42f4-ac78-48f55bb7d8d8")
-		(property "Reference" "J1"
-			(at 155.956 111.76 0)
+		(fields_autoplaced yes)
+		(uuid "57ba05b5-81f1-47b3-abdf-409098700680")
+		(property "Reference" "D8"
+			(at 222.25 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 160.02 105.41 0)
+		(property "Value" "5.6V"
+			(at 222.25 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "locals:691137710003"
-			(at 160.02 111.76 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 219.71 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5600,76 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 111.76 0)
+			(at 219.71 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol, filled shape"
+			(at 219.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c194752c-6d0d-4136-b268-de90b52037ea")
+		)
+		(pin "2"
+			(uuid "6c89aeec-abe7-4755-a132-32d21022ff0f")
+		)
+		(instances
+			(project ""
+				(path "/b29a3901-c128-4c19-b69f-61de71283b43"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 156.21 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61785326-c6da-42f4-ac78-48f55bb7d8d8")
+		(property "Reference" "J1"
+			(at 152.146 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 156.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "locals:691137710003"
+			(at 156.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5678,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 160.02 111.76 0)
+			(at 156.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5687,7 @@
 			)
 		)
 		(property "DKPN" "732-10956-ND"
-			(at 160.02 111.76 90)
+			(at 156.21 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +6081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "N14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 146.05 57.15 0)
 			(effects
 				(font
@@ -6775,85 +7035,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 219.71 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b97d941c-d189-4a36-94d0-df24feae4855")
-		(property "Reference" "R7"
-			(at 222.25 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5k"
-			(at 222.25 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 219.71 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 219.71 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DKPN" "BC1.50KXCT-ND"
-			(at 219.71 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c5555ca0-c880-4d1a-ba98-e516cb2c1031")
-		)
-		(pin "1"
-			(uuid "aa299f12-3a00-4453-adc7-bc12b1e1b543")
-		)
-		(instances
-			(project "MMS_SSTC"
-				(path "/b29a3901-c128-4c19-b69f-61de71283b43"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS_Small_Filled")
 		(at 172.72 135.89 90)
 		(unit 1)
@@ -7087,7 +7268,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 168.91 109.22 90)
+		(at 161.29 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7095,7 +7276,7 @@
 		(dnp no)
 		(uuid "c7e589b4-7e40-4e1e-bf66-d9afdb18e584")
 		(property "Reference" "#PWR012"
-			(at 175.26 109.22 0)
+			(at 161.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +7285,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 173.482 109.22 0)
+			(at 158.496 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +7294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 109.22 0)
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,7 +7303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 109.22 0)
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 168.91 109.22 0)
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
