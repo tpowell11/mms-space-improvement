@@ -4183,10 +4183,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "849af26a-d59d-495c-a5ff-349ab6de070d")
-		(property "Reference" "D7"
-			(at 83.82 131.1274 90)
+		(property "Reference" "LED1"
+			(at 82.55 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,6 +4200,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm"
@@ -4257,7 +4257,7 @@
 		(instances
 			(project ""
 				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
-					(reference "D7")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
