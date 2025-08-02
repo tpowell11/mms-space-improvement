@@ -3,8 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Qingxian Zeming Langxi Electronic ZMPT101K voltage transformer 1000:1000 2mA:2mA, https://5krorwxhmqqirik.leadongcdn.com/ZMPT101K+specification-aidikBqoKomRilSkopqmikp.pdf")
-	(tags "voltage transformer ZMPT")
+	(tags "transformer Zettler")
 	(property "Reference" "REF**"
 		(at 10.9 -4.8 0)
 		(layer "F.SilkS")
@@ -54,26 +53,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -6.7 -4.2)
-		(end -5.42 -4.2)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "e6ac4db2-aaa7-4fcf-b8c0-945c39530ba5")
-	)
-	(fp_line
-		(start -6.7 -2.92)
-		(end -6.7 -4.2)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "8e586ed4-b6a6-486d-a0eb-433c00334096")
-	)
 	(fp_rect
 		(start -6.4 -3.9)
 		(end 26.4 23.9)
@@ -97,18 +76,18 @@
 		(uuid "8ec86ebc-6226-4188-b751-879846603496")
 	)
 	(fp_line
-		(start -6.2 -1.7)
-		(end -4.35 -3.7)
+		(start -6.2 -3.7)
+		(end 26.2 -3.7)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "d6fed040-f9a1-445b-bbf0-36ada44a4124")
+		(uuid "b72d8ef5-9eb6-433c-8e89-e9ec5b498a1a")
 	)
 	(fp_line
-		(start -6.2 23.7)
-		(end -6.2 -1.7)
+		(start -6.2 21.7)
+		(end -6.2 -3.7)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -117,14 +96,14 @@
 		(uuid "64d09662-bf4c-4eea-9b83-110d4692c880")
 	)
 	(fp_line
-		(start -4.35 -3.7)
-		(end 26.2 -3.7)
+		(start -6.2 21.7)
+		(end -4.35 23.7)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "b72d8ef5-9eb6-433c-8e89-e9ec5b498a1a")
+		(uuid "d6fed040-f9a1-445b-bbf0-36ada44a4124")
 	)
 	(fp_line
 		(start 26.2 -3.7)
@@ -138,7 +117,7 @@
 	)
 	(fp_line
 		(start 26.2 23.7)
-		(end -6.25 23.7)
+		(end -4.35 23.7)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -190,15 +169,15 @@
 		(uuid "2de6256f-85ec-4af5-9598-713f2027f0d8")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Zeming_ZMPT101K.step"
+	(model "${KIPRJMOD}/local-models/transformer.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 26.4 3.9 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -180)
 		)
 	)
 )
