@@ -1265,6 +1265,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LM7805_TO220"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM7805_TO220"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM7805_TO220_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM7805_TO220_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LM7812_TO220"
 			(pin_names
 				(offset 0.254)
@@ -2793,6 +2934,18 @@
 		(uuid "58f84c59-fdca-4955-87f6-0be13fc44649")
 	)
 	(junction
+		(at 144.78 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c120542-96e8-4c66-aab9-9f30a3f56f0b")
+	)
+	(junction
+		(at 135.89 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67ff759b-f623-446e-b0ed-60fd7a3e78b9")
+	)
+	(junction
 		(at 127 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2811,6 +2964,18 @@
 		(uuid "9316a666-b629-4020-901c-6a693ea0dc6f")
 	)
 	(junction
+		(at 157.48 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "956013a9-8171-4057-9ef1-35cdbb8375ae")
+	)
+	(junction
+		(at 135.89 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a259ee11-aa51-46fc-b62d-0b3613b9fecf")
+	)
+	(junction
 		(at 91.44 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2823,10 +2988,26 @@
 		(uuid "eb66b3a4-f347-48d6-b5cd-2b249100e885")
 	)
 	(junction
+		(at 127 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef9906cf-73b4-433d-83ff-c1de60076467")
+	)
+	(junction
 		(at 80.01 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdd39012-0627-47f9-ac77-db24cbdac2bc")
+	)
+	(wire
+		(pts
+			(xy 135.89 82.55) (xy 137.16 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00869cb4-9d94-4116-9ccf-754c7906f360")
 	)
 	(wire
 		(pts
@@ -2837,6 +3018,16 @@
 			(type default)
 		)
 		(uuid "0588db53-2659-4401-b344-fdbc5a04100e")
+	)
+	(wire
+		(pts
+			(xy 135.89 92.71) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2505d4-9b0a-402d-be4f-e70d392cf99e")
 	)
 	(wire
 		(pts
@@ -2867,6 +3058,16 @@
 			(type default)
 		)
 		(uuid "15db4386-a69c-466c-b962-aaf4286709c5")
+	)
+	(wire
+		(pts
+			(xy 135.89 82.55) (xy 135.89 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b12004-3845-419e-b6c2-7ef5d0c80ab7")
 	)
 	(wire
 		(pts
@@ -2910,6 +3111,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 82.55) (xy 157.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2444c717-4575-4154-9cb4-3de615dcef45")
+	)
+	(wire
+		(pts
 			(xy 85.09 87.63) (xy 85.09 82.55)
 		)
 		(stroke
@@ -2917,6 +3128,16 @@
 			(type default)
 		)
 		(uuid "25e786af-b809-4336-ad34-122aa13c887b")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.98) (xy 144.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4114ec-18dd-4c7f-a770-514e998f670e")
 	)
 	(wire
 		(pts
@@ -2937,6 +3158,16 @@
 			(type default)
 		)
 		(uuid "2c9d2172-dec0-4626-83b0-c439f7b81228")
+	)
+	(wire
+		(pts
+			(xy 135.89 90.17) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc5e329-b5d8-438e-8e34-6d64d2ac83b5")
 	)
 	(wire
 		(pts
@@ -3027,6 +3258,16 @@
 			(type default)
 		)
 		(uuid "4fcf8c33-2bab-485c-a09d-a65d7de788c8")
+	)
+	(wire
+		(pts
+			(xy 144.78 90.17) (xy 144.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525dc843-f068-4e3f-aae2-5ea442fe71d2")
 	)
 	(wire
 		(pts
@@ -3140,6 +3381,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 90.17) (xy 157.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f102b3-878e-402e-a1b4-96ed5f81c66f")
+	)
+	(wire
+		(pts
 			(xy 114.3 90.17) (xy 114.3 92.71)
 		)
 		(stroke
@@ -3177,6 +3428,16 @@
 			(type default)
 		)
 		(uuid "a020b05f-4246-4fb5-a409-a80badec8a90")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 157.48 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a209423b-b516-4720-b8f2-24717bf3d6fd")
 	)
 	(wire
 		(pts
@@ -3290,6 +3551,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1740bcd-bbb6-4bda-950c-897a70512fb2")
+	)
+	(wire
+		(pts
 			(xy 114.3 92.71) (xy 127 92.71)
 		)
 		(stroke
@@ -3317,6 +3588,16 @@
 			(type default)
 		)
 		(uuid "e2a93a87-e5ef-4c8c-9d51-efe60782096b")
+	)
+	(wire
+		(pts
+			(xy 144.78 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e511dfce-7550-426a-814d-b41b32a4eaa5")
 	)
 	(wire
 		(pts
@@ -3350,6 +3631,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 82.55) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef404e43-35ec-402a-baa2-0b7936e4b232")
+	)
+	(wire
+		(pts
 			(xy 64.77 95.25) (xy 77.47 95.25)
 		)
 		(stroke
@@ -3357,6 +3648,16 @@
 			(type default)
 		)
 		(uuid "f06f92a3-13c8-40bf-be93-88a4dc38a558")
+	)
+	(wire
+		(pts
+			(xy 157.48 92.71) (xy 144.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f086f508-75a6-429d-8bf0-69d48960a66a")
 	)
 	(wire
 		(pts
@@ -3451,6 +3752,138 @@
 			(project "MMS_SSTC"
 				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 157.48 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "207ddec7-cad1-434d-a903-f66ae3ec36e8")
+		(property "Reference" "#PWR022"
+			(at 157.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5912ebaf-ed94-428a-8fc7-4a52bade0200")
+		)
+		(instances
+			(project "MMS_SSTC"
+				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26689f1a-8d4a-4119-a1a8-243ec85d2d66")
+		(property "Reference" "#PWR015"
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed2d6f5d-2e54-4dcc-809b-52253a3ddb45")
+		)
+		(instances
+			(project "MMS_SSTC"
+				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3742,6 +4175,87 @@
 			(project "MMS_SSTC"
 				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM7805_TO220")
+		(at 144.78 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47e2f53a-cfcc-43c2-bb61-883804d84236")
+		(property "Reference" "U5"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM7805_TO220"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 144.78 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "296-47192-ND"
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30999076-292b-4d2f-9772-5d53cfb18634")
+		)
+		(pin "1"
+			(uuid "e8d30a09-47ca-4404-9d64-3c02045393a4")
+		)
+		(pin "3"
+			(uuid "2a2358dc-a0af-4db2-bf48-795da2ad79fb")
+		)
+		(instances
+			(project ""
+				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4181,7 +4695,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "849af26a-d59d-495c-a5ff-349ab6de070d")
 		(property "Reference" "LED1"
@@ -4482,6 +4996,84 @@
 			(project "MMS_SSTC"
 				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 135.89 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "955d169b-6169-4a28-964b-ba7eb9411ca7")
+		(property "Reference" "C13"
+			(at 129.286 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 129.286 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "399-4264-ND"
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58bdcdf1-4d7c-435c-9b48-c3de3390280f")
+		)
+		(pin "2"
+			(uuid "9ad2eab0-6060-46de-b425-89a9fe045746")
+		)
+		(instances
+			(project "MMS_SSTC"
+				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5489,6 +6081,84 @@
 			(project "MMS_SSTC"
 				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 157.48 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e901fb6b-953c-4b13-81f7-fddb69487d8f")
+		(property "Reference" "C14"
+			(at 150.876 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 150.876 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "399-4264-ND"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a543734c-0496-4ada-a7fc-cede2f351e2e")
+		)
+		(pin "2"
+			(uuid "ed34240f-49b5-427b-83a7-0179820465e8")
+		)
+		(instances
+			(project "MMS_SSTC"
+				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
+					(reference "C14")
 					(unit 1)
 				)
 			)
