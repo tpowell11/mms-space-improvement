@@ -1,0 +1,17 @@
+solder in u1, u2, u3 sockets
+do all 0.1u ceramics (c1-c8)
+next do r1, r2, r3, r4, r5 (ucc37322 done)
+get d1
+do c9 (by 555) (555 done)
+do c10 by cd74
+do trimpot by cd74 (cd74 done)
+do d2, d3, d4
+do q1
+do c11 (fet done)
+do fuse
+do terminal blocks
+d5, d6
+u4, u5,
+c12, c13, c14
+tr1
+led1
