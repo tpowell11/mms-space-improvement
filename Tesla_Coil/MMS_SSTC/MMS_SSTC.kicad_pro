@@ -510,7 +510,7 @@
       "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "MMS_SSTC.step",
       "svg": "",
       "vrml": ""
     },
