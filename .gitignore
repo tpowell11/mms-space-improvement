@@ -3,3 +3,8 @@
 *.CWR
 *.gsz
 *.zip
+
+*.cpt
+*.fbd
+*.fld
+*.gdb
