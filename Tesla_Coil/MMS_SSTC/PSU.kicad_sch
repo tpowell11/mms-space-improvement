@@ -3114,6 +3114,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "C14 should be as large as possible, \n1200u might even be low\nidfk\n"
+		(exclude_from_sim no)
+		(at 129.286 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59290e58-2e89-492e-af63-b18242bb2867")
+	)
 	(text "NOT earth ground!!!!"
 		(exclude_from_sim no)
 		(at 153.416 155.194 0)
@@ -3123,6 +3133,16 @@
 			)
 		)
 		(uuid "94e89b68-44a7-4b87-bf13-d1e7d7ee3a2d")
+	)
+	(text "full bridge rectifiers are hell\nwithout isolation\n"
+		(exclude_from_sim no)
+		(at 88.138 154.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af158dd9-7e9b-4e42-852b-9c400380f017")
 	)
 	(text "i hate this rectifier"
 		(exclude_from_sim no)
@@ -3970,7 +3990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "570u"
+		(property "Value" "1200u"
 			(at 141.478 141.224 0)
 			(effects
 				(font
@@ -4006,7 +4026,7 @@
 				(hide yes)
 			)
 		)
-		(property "DKPN" "565-2951-ND"
+		(property "DKPN" "565-3692-ND"
 			(at 138.43 139.7 0)
 			(effects
 				(font

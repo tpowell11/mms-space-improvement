@@ -48,3 +48,26 @@ Soldering review
             -if you're unsure about how to do something, just ask. i know everything
         -if your solder starts acting chunky, you may need some flux. we have it up here
     -once your component is soldered in, you can trim the leads with some flush cutters
+
+Notes
+    -note lead straightness on IC sockets and ICs
+    -print the damn things in color
+    -educate on wick and flux, have available
+    -safety glasses
+    -start time: 4:30
+    -note R5 orientation more explicitly
+    -note that there are times where multiple components will be given at once and if you don't know anything you differentiate
+    -list everything as what it is, so for example, people know what D1 is (a diode)
+    -if possible every group should get flux
+    -q1 orientation
+    -end time: 6:00. Total: 1.5hrs
+
+Assembly notes
+    -i need a better way of making primaries
+    -tell people about prusa screw pulling technique
+    -some square nuts SUCK ASS
+
+    -ORDER:
+        -add primary first. screw it down, then poke the leads through holes crossed
+        -add secondary holder
+        -add square nuts
