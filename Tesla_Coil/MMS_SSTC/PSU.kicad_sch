@@ -558,6 +558,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Filled_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse_Small"
 			(pin_numbers
 				(hide yes)
@@ -1006,263 +1174,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode_Bridge:B125C2300-1500A"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 2.54 6.985 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "B125C2300-1500A"
-				(at 2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Diode_THT:Diode_Bridge_19.0x3.5x10.0mm_P5.0mm"
-				(at 3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Silicon Bridge Rectifier, 125V Vrms, 1.5A If, pins=-AA+, SIL-package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "rectifier acdc"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*Bridge*19.0x3.5x10.0mm*P5.0mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "B125C2300-1500A_0_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -2.54 1.27) (xy -1.905 3.175) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -3.81 -2.54) (xy -1.905 -3.175) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 3.81) (xy 3.175 1.905) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -1.905) (xy 1.27 -2.54) (xy 2.54 -3.81) (xy 3.175 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "B125C2300-1500A_1_1"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3114,7 +3025,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "C14 should be as large as possible, \n1200u might even be low\nidfk\n"
+	(text "C14 should probably be larger\ntest 1200u before production\n"
 		(exclude_from_sim no)
 		(at 129.286 122.936 0)
 		(effects
@@ -3133,16 +3044,6 @@
 			)
 		)
 		(uuid "94e89b68-44a7-4b87-bf13-d1e7d7ee3a2d")
-	)
-	(text "full bridge rectifiers are hell\nwithout isolation\n"
-		(exclude_from_sim no)
-		(at 88.138 154.432 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "af158dd9-7e9b-4e42-852b-9c400380f017")
 	)
 	(text "i hate this rectifier"
 		(exclude_from_sim no)
@@ -3197,12 +3098,6 @@
 		(uuid "0f37a61f-93d8-44f9-91f2-2e8043659e40")
 	)
 	(junction
-		(at 116.84 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2df8345a-9fda-4157-82c3-ec8bea1ae7cb")
-	)
-	(junction
 		(at 142.24 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3243,6 +3138,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ccd27a2-e83e-431a-9200-91b17031efe9")
+	)
+	(junction
+		(at 116.84 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b6dd0bc-aa70-455a-8f75-21503bd2374a")
 	)
 	(junction
 		(at 152.4 90.17)
@@ -3324,16 +3225,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 149.86) (xy 96.52 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f06565b-98ef-4235-8b41-5978b2e45a0b")
-	)
-	(wire
-		(pts
 			(xy 132.08 90.17) (xy 142.24 90.17)
 		)
 		(stroke
@@ -3361,16 +3252,6 @@
 			(type default)
 		)
 		(uuid "18b12004-3845-419e-b6c2-7ef5d0c80ab7")
-	)
-	(wire
-		(pts
-			(xy 96.52 129.54) (xy 116.84 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d00574b-7ca5-41ef-a87f-aba9310d4756")
 	)
 	(wire
 		(pts
@@ -3501,6 +3382,16 @@
 			(type default)
 		)
 		(uuid "3c58906e-01c3-44ab-9166-f21ae0ee16fa")
+	)
+	(wire
+		(pts
+			(xy 95.25 129.54) (xy 100.33 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c0e205-f900-4e56-9c3c-ad2e3af647c0")
 	)
 	(wire
 		(pts
@@ -3654,6 +3545,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 129.54) (xy 116.84 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f1bdda-825c-47bc-b6df-03d668f26a7e")
+	)
+	(wire
+		(pts
 			(xy 139.7 46.99) (xy 142.24 46.99)
 		)
 		(stroke
@@ -3791,16 +3692,6 @@
 			(type default)
 		)
 		(uuid "c40b7b11-8a44-49b3-8c7c-05afea12cc61")
-	)
-	(wire
-		(pts
-			(xy 96.52 129.54) (xy 96.52 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c75ab075-7218-4de3-b329-6d5b542a2e62")
 	)
 	(wire
 		(pts
@@ -3990,7 +3881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1200u"
+		(property "Value" "560u"
 			(at 141.478 141.224 0)
 			(effects
 				(font
@@ -4026,7 +3917,7 @@
 				(hide yes)
 			)
 		)
-		(property "DKPN" "565-3692-ND"
+		(property "DKPN" "565-2951-ND"
 			(at 138.43 139.7 0)
 			(effects
 				(font
@@ -4045,6 +3936,92 @@
 			(project "MMS_SSTC"
 				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Filled")
+		(at 104.14 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c643a09-29e9-4b13-84ed-fa79693b0529")
+		(property "Reference" "D3"
+			(at 104.14 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN5404"
+			(at 104.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, filled shape"
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9defbb81-a2b6-4312-aa41-557616212a45")
+		)
+		(pin "1"
+			(uuid "cc0b372f-9e4a-41a3-8dab-2ec31610d782")
+		)
+		(instances
+			(project ""
+				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4235,7 +4212,7 @@
 				(hide yes)
 			)
 		)
-		(property "DKPN" "2057-SW-R3-1A-A-1-0-ND"
+		(property "DKPN" "R4ABLKBLKFF0-ND"
 			(at 91.44 52.07 0)
 			(effects
 				(font
@@ -4555,90 +4532,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode_Bridge:B125C2300-1500A")
-		(at 96.52 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "569f66cf-12cd-49ba-880c-6f13dd97ae51")
-		(property "Reference" "D3"
-			(at 91.186 134.366 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B125C2300-1500A"
-			(at 81.534 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_Vishay_GBL"
-			(at 93.345 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Silicon Bridge Rectifier, 125V Vrms, 1.5A If, pins=-AA+, SIL-package"
-			(at 96.52 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DKPN" "GBU810DI-ND"
-			(at 96.52 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "33e6fb4c-4980-41d1-ad97-4c9aef907bd0")
-		)
-		(pin "4"
-			(uuid "965ca6db-35cb-46e0-8f0f-fcfa514fbbb0")
-		)
-		(pin "2"
-			(uuid "92608255-b447-4741-ac2d-1d00ef8b73dd")
-		)
-		(pin "1"
-			(uuid "26c8d8df-53df-4135-8550-e0a164cca4f7")
-		)
-		(instances
-			(project "MMS_SSTC"
-				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:NEUT")
 		(at 134.62 53.34 180)
 		(unit 1)
@@ -4917,7 +4810,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 88.9 139.7 90)
+		(at 95.25 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4926,7 +4819,7 @@
 		(fields_autoplaced yes)
 		(uuid "82af48c0-3003-46d4-bf90-68067d545c73")
 		(property "Reference" "#PWR018"
-			(at 91.44 139.7 0)
+			(at 97.79 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +4828,7 @@
 			)
 		)
 		(property "Value" "AC_PROT"
-			(at 82.55 139.6999 90)
+			(at 88.9 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +4837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 139.7 0)
+			(at 95.25 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +4846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 139.7 0)
+			(at 95.25 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,7 +4855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 88.9 139.7 0)
+			(at 95.25 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5334,7 @@
 	)
 	(symbol
 		(lib_id "power:NEUT")
-		(at 104.14 139.7 270)
+		(at 96.52 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5449,7 +5342,7 @@
 		(dnp no)
 		(uuid "a00411e0-cf17-4bd1-a117-4f357da135f4")
 		(property "Reference" "#PWR021"
-			(at 100.33 139.7 0)
+			(at 100.33 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5351,7 @@
 			)
 		)
 		(property "Value" "NEUT"
-			(at 108.458 139.7 90)
+			(at 92.202 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 139.7 0)
+			(at 96.52 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 139.7 0)
+			(at 96.52 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"NEUT\""
-			(at 104.14 139.7 0)
+			(at 96.52 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)

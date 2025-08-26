@@ -1,17 +1,15 @@
-- solder in u1, u2, u3 sockets
-- do all 0.1u ceramics (c1-c8)
-- next do r1, r2, r3, r4, r5 (ucc37322 done)
-- get d1 and c9 (by 555) (555 done)
-- do c10 and trimpot by cd74 (cd74 done)
-- do TVS1, TVS2, TVS3
-- do q1 then c11 (fet done)
-- do terminal blocks (need to show The Technique)
-- do d2, d3, and fuse
-- u4, u5,
-- c12, c13, c14
-- tr1
-- led1
-
+STEPS:
+    1. U1, U2, U3 SOCKETS
+    2. C1-C8, R1
+    3. R2, D1, C9
+    4. C10, RV1, R3, U4
+    5. U5, TVS1, C11, Q1
+    6. R4, R5, LED1
+    7. J1, J2
+    8. F1, D2, C13
+    9. C12, C14
+    10. TR1
+    11. THE IC's
 
 (if anybody foregoes direct instructions and just tries to solder the components in we have a checklist for them. in fact, everybody has a checklist they need to do at the end.)
 
@@ -62,12 +60,4 @@ Notes
     -q1 orientation
     -end time: 6:00. Total: 1.5hrs
 
-Assembly notes
-    -i need a better way of making primaries
-    -tell people about prusa screw pulling technique
-    -some square nuts SUCK ASS
 
-    -ORDER:
-        -add primary first. screw it down, then poke the leads through holes crossed
-        -add secondary holder
-        -add square nuts

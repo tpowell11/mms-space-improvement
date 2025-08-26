@@ -3494,16 +3494,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "mosfet needs an insulator from heat sink\nidk whats optimal here"
-		(exclude_from_sim no)
-		(at 155.702 162.052 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "12142361-bac0-4bd0-bf8b-250b7a2f585c")
-	)
 	(text "2x 1.5n 5% also viable but less tolerance \nstackup will make things easier"
 		(exclude_from_sim no)
 		(at 172.466 155.194 0)
@@ -3593,12 +3583,6 @@
 		(uuid "8a9370bc-5378-43f9-84ca-8a2a4e3916ce")
 	)
 	(junction
-		(at 172.72 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9734e7b0-b209-4691-b7cc-60872efd477b")
-	)
-	(junction
 		(at 58.42 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3621,12 +3605,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca4e894e-ae46-497d-bf1c-d23e72eeb95e")
-	)
-	(junction
-		(at 172.72 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf18f46d-90bf-4954-afc8-df7fa1b5a29c")
 	)
 	(junction
 		(at 133.35 130.81)
@@ -3704,7 +3682,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 124.46) (xy 182.88 130.81)
+			(xy 172.72 124.46) (xy 172.72 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4004,7 +3982,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 135.89) (xy 182.88 140.97)
+			(xy 172.72 135.89) (xy 172.72 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4031,16 +4009,6 @@
 			(type default)
 		)
 		(uuid "8817bf3b-9350-4413-9b90-95175653c00e")
-	)
-	(wire
-		(pts
-			(xy 172.72 140.97) (xy 182.88 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91738ba8-dde7-4d34-8e75-50c5156b8b1d")
 	)
 	(wire
 		(pts
@@ -4154,16 +4122,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 124.46) (xy 182.88 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae659ea6-4ebb-42e7-a988-9d9fa8ba8256")
-	)
-	(wire
-		(pts
 			(xy 133.35 140.97) (xy 133.35 143.51)
 		)
 		(stroke
@@ -4211,16 +4169,6 @@
 			(type default)
 		)
 		(uuid "cef97bc0-f97d-4c62-ace0-83a869e32338")
-	)
-	(wire
-		(pts
-			(xy 172.72 138.43) (xy 172.72 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1d7af99-2bc8-4d29-a286-ada1d98bc01d")
 	)
 	(wire
 		(pts
@@ -4301,26 +4249,6 @@
 			(type default)
 		)
 		(uuid "f51b788c-e168-4c8d-ba91-b5d0fd393561")
-	)
-	(wire
-		(pts
-			(xy 172.72 124.46) (xy 172.72 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f53418be-dd5b-4be7-a076-a26e5f688255")
-	)
-	(wire
-		(pts
-			(xy 172.72 133.35) (xy 172.72 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5875256-9985-43f8-9525-6bacd738dadf")
 	)
 	(wire
 		(pts
@@ -5651,84 +5579,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Small_Filled")
-		(at 172.72 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f35a211-f5b8-465f-888e-fabb07686260")
-		(property "Reference" "TVS2"
-			(at 175.26 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "400V"
-			(at 175.26 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-27_P12.70mm_Horizontal"
-			(at 172.72 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol, filled shape"
-			(at 172.72 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DKPN" "1.5KE400CALFCT-ND"
-			(at 172.72 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc5c3467-3a19-4fb2-a0be-d1e0cbd16ac2")
-		)
-		(pin "2"
-			(uuid "d22b8f09-4650-4f51-bb80-f2aa5ef4f961")
-		)
-		(instances
-			(project "MMS_SSTC"
-				(path "/b29a3901-c128-4c19-b69f-61de71283b43"
-					(reference "TVS2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 207.01 129.54 0)
 		(unit 1)
@@ -6455,84 +6305,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Small_Filled")
-		(at 172.72 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b989af7a-8cef-432a-ad9e-aeeb7f956680")
-		(property "Reference" "TVS3"
-			(at 175.26 134.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "400V"
-			(at 175.26 137.1599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-27_P12.70mm_Horizontal"
-			(at 172.72 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol, filled shape"
-			(at 172.72 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DKPN" "1.5KE400CALFCT-ND"
-			(at 172.72 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6120d76c-8277-4ee9-aa8e-9ac6e01e4aa0")
-		)
-		(pin "2"
-			(uuid "c5344def-66c2-49e3-80e0-9aafa1c71e10")
-		)
-		(instances
-			(project ""
-				(path "/b29a3901-c128-4c19-b69f-61de71283b43"
-					(reference "TVS3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Coupled")
 		(at 209.55 135.89 90)
 		(unit 1)
@@ -7049,7 +6821,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 182.88 133.35 0)
+		(at 172.72 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7058,7 +6830,7 @@
 		(fields_autoplaced yes)
 		(uuid "dce99fe7-53c2-41dc-be10-2047595d1708")
 		(property "Reference" "C11"
-			(at 185.42 132.0862 0)
+			(at 175.26 132.0862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +6839,7 @@
 			)
 		)
 		(property "Value" "2.7n"
-			(at 185.42 134.6262 0)
+			(at 175.26 134.6262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +6848,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4"
-			(at 182.88 133.35 0)
+			(at 172.72 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +6857,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 133.35 0)
+			(at 172.72 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +6866,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 133.35 0)
+			(at 172.72 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +6875,7 @@
 			)
 		)
 		(property "DKPN" "495-3207-ND"
-			(at 182.88 133.35 0)
+			(at 172.72 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
