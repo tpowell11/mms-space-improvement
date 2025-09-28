@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>225W MOSFET</name>
+	<uuid>d8cba7a9-75f1-4de3-bbdb-730cae0e76e2</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>1</vwr_res_files_dir>
+	<geom_db_uuid>427f6e66-09e1-41dd-ab8f-393aa5dc8c91</geom_db_uuid>
+	<gdb_light_uuid>3a2e87ca-4678-4734-bd8a-d86eb1580c24</gdb_light_uuid>
+	<model_geom_uuid>49d06e31-9607-4a30-bbac-a24a2c972ea5</model_geom_uuid>
+	<template_id/>
+</project>

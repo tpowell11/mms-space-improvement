@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>BITCHASS</name>
+	<uuid>62452c34-9048-4668-b410-9a1df2e1f43b</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>2</vwr_res_files_dir>
+	<geom_db_uuid>bd59850a-a620-49be-9391-34f6d5860e6f</geom_db_uuid>
+	<gdb_light_uuid>195f7c29-b7ef-473d-826b-3e1425f576fc</gdb_light_uuid>
+	<model_geom_uuid>669d9139-fe35-4e04-b8f3-ab3c22c01153</model_geom_uuid>
+	<template_id/>
+</project>
