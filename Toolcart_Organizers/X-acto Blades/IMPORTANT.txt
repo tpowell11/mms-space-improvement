@@ -1,0 +1,7 @@
+Okay OH MY GOD Xacto blade sizing and naming is stupid
+
+We are standardizing on #11 classic fine point blades. No there is not any room for discussion we are just deciding this now and not changing it.
+
+https://help.xacto.com/s/article/What-X-ACTO-handles-work-with-each-X-ACTO-blade
+Anyways we previously had both #11 and #2 (large fine point) blades and also both No.1 and No.2 handles and this was a nightmare for compatibility and caps and stuff. We decided to get rid of all of our #2 blades and No.2 handles because the #11 and #2 are almost exactly the same size and there's more useful No.1 blades and more importantly we really just needed to pick a single size and stick with it. Also we had a lot of #11 blades in storage and found a good cap design on printables. The cap is designed for an 8.0mm diameter holder which is the diameter of the No.1 handle and it's also angled to fit #11 blades. 
+Theoretically the No.2 handle is supposed to be the same diameter (8.0mm) as the No.1 and also the same overall length, and the #11 and #2 blades are very similar sizes, so they're supposed to be able to all just use the same caps but no of course not that would be too easy and actually make sense and require everything to be the proper sizes so of course that doesn't actually work. Anyways yeah we're using #11 blades and No.1 handles now and I am so tired of dealing with blade sizing and random blades being left around without covers oh my god please people.
